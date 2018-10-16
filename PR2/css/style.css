@@ -3,6 +3,27 @@
     padding: 0;
 }
 
+.back{
+
+
+    background-color: darkgray;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border-radius: 22px;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding:10px 20px;
+    z-index: 1;
+
+}
+.back:hover
+{
+    background-color: black;
+    color: aliceblue;
+}
+
 .pare{
     width: 100%;
     height: 900px;

@@ -3,6 +3,26 @@
     margin: 0;
 }
 
+.back{
+
+
+    background-color: darkgray;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border-radius: 22px;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding:10px 20px;
+
+}
+.back:hover
+{
+    background-color: black;
+    color: aliceblue;
+}
+
 .menu a{
 
     background-color: black;
