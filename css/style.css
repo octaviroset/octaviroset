@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+
+
+.divtitol{
+        background-color: grey;
+        width: 100%;
+        height: 100px;
+/*        position: absolute;*/
+
+}
+
+.titol{
+
+    text-align: center;
+    position: relative;
+    bottom: -22px;
+    font-size: 48px;
+    font-family: 'K2D', sans-serif;
+}
+.principal{
+
+    background-color: aqua;
+    width: 100%;
+    height: 1200px;
+    position: relative;
+
+}
+.infoto{
+
+    background-color: aquamarine;
+    height: 300px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 80px;
+
+
+}
+.informacio{
+
+    width: 50%;
+    height: 300px;
+    background-color: bisque;
+    float: left;
+}
+.foto{
+    background-color: black;
+    width: 50%;
+    height: 300px;
+    float: left;
+
+}
+.practiques{
+    position: absolute;
+    width: 80%;
+    height: 600px;
+    left: 10%;
+    top: 470px;
+    background-color: cornflowerblue
+}
+
+.footer{
+    position: absolute;
+    width: 1000%;
+    height: 80px;
+    top: 1200px;
+    background-color: cornflowerblue
+}
