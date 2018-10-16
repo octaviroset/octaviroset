@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pare{
+    width: 100%;
+    height: 900px;
+
+}
+
+.titol{
+    width: 100%;
+    height: 10%;
+    background-image: url(/images/logoford.jpg);
+    background-position:left;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.texttitol{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    top: 30%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.principal{
+    width: 100%;
+    height: 90%;
+
+}
+
+.menu{
+    width: 15%;
+    height: 100%;
+    background-color: cornflowerblue;
+    float: left;
+    position: relative;
+
+}
+.textmenu{
+
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    right:0%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+.pulsadors{
+    width: 80%;
+    height: 5%;
+    background-color: azure;
+    border-radius: 20%;
+    margin-top: 14%;
+    margin-left: 12%;
+    margin-right: 12%;
+
+
+}
+.pulsadors:hover{
+
+    background-color: blue;
+    cursor: crosshair;
+    transform:scale(1.5);
+
+}
+.articles{
+    position: relative;
+    float: left;
+    width: 85%;
+    height: 80%;
+
+}
+.footer{
+    width: 85%;
+    height: 20%;
+    background-color: darkslateblue;
+    float: left;
+}
+.footer1{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: cornflowerblue;
+
+}
+.footer2{
+    width: 100%;
+    height: 50%;
+    background-color: cornflowerblue;
+}
+.textfooter2{
+
+    text-align: justify;
+}
+.arti1{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    right: 5%;
+    height: 30%;
+    text-align: justify;
+    border-radius: 3%;
+}
+
+.arti2{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    right: 5%;
+    height: 30%;
+    border-radius: 3%;
+}
+.arti3{
+
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    right: 5%;
+    height: 30%;
+
+    border-radius: 3%;
+    text-align: justify;
+}
+.caixes{
+    position: relative;
+    bottom: 15%;
+    top: 15%;
+    width: 10%;
+    background-color: cornflowerblue;
+}
+.caixes:hover{
+
+
+    cursor: crosshair;
+    transform:scale(1.5);
+
+}
+
+#id_1{
+    position: absolute;
+    left: 7.5%;
+
+}
+#id_2{
+    position: absolute;
+
+    left: 32.5%;
+}
+#id_3{
+    position: absolute;
+
+    left: 57.5%;
+}
+#id_4{
+    position: absolute;
+
+    left: 82.5%;
+}
+
+.esquerre{
+
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.gran{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+
+}
+.imatge1{
+
+    width: 100%;
+    height: 100%;
+}
+.dreta{
+
+    width: 50%;
+    height: 100%;
+    float:left;
+    position: relative;
+}
+.gran2{
+    width: 70%;
+    background-color: cadetblue;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+
+
+}
+.petit1{
+    height: 100%;
+    width: 50%;
+    top:15%;
+    left: 15%;
+    float: left;
+
+
+}
+.petit2{
+     height: 100%;
+    width: 50%;
+    top:15%;
+    left: 15%;
+    float: left;
+
+}

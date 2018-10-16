@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+.menu a{
+
+    background-color: black;
+    color: aliceblue;
+    display: block;
+    padding: 15px;
+
+}
+
+.menu a:hover{
+
+    background-color: gray;
+
+}
+
+.menu>li{
+
+    float: left;
+
+}
+ul{
+
+    list-style-type: none;
+
+}
+
+.menu li>ul{
+
+    display: none;
+}
+
+.menu li:hover>ul{
+    display: block;
+    position: relative;
+
+}
+
+li {
+
+    min-width: 100px;
+    min-height: 50px;
+}
+
+.menu li>ul>li>ul{
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+
+
+}
