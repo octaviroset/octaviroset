@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.titool{
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+
+}
+.articles{
+
+    margin-left: 20%;
+    margin-top: 3%;
+
+}
+.contenidor{
+    margin: 15px;
+    width: 350px;
+    height: 300px;
+    background-color:darkslategray;
+    overflow: hidden;
+    float: left;
+}
+.cartell{
+    width: 350px;
+    height: 300px;
+    background-color: dimgray;
+    overflow: hidden;
+}
+
+.info{
+    width: 350px;
+    height: 0px;
+    background-color: darkslategray;
+    overflow: hidden;
+}
+
+
+
+.imag{
+    display: block;
+    margin: 50px auto;
+    width: 300px;
+    height: 190px;
+
+}
+
+p.titol{
+
+    margin: 5px;
+    font-size: 1.1em;
+    color:white;
+    text-align: center;
+
+
+    font-size: 1.3em;
+}
+p.mest{
+    color: white;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.linc{
+    float:right;
+    margin-top: -35px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    background-color: black;
+    font-size: .8em;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contenidor:hover .cartell{
+    height: 210px;
+}
+
+.contenidor:hover .info{
+    height: 90px;
+    transition: height 0.5s;
+}
+
+.contenidor:hover .imag{
+    margin: 10px auto;
+    transition: margin 0.5s;
+}
