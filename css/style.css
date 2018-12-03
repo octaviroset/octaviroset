@@ -96,6 +96,62 @@
     height: 80px;
     top: 1400px;
     background-color: gray;
+
+}
+.caixes{
+
+    background-color: dimgrey;
+    width: 50px;
+    height: 50px;
+    float: left;
+
+}
+#infooo{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 17px;
+
+}
+
+#facebook{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 17px;
+
+
+}
+#insta{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 17px;
+
+
+}
+#twitter{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 17px;
+
+}
+.imatge1{
+
+    width: 100%;
+    height: 100%;
+}
+.caixes:hover{
+
+
+    cursor:grab;
+    transform:scale(1.5);
+
+}
+.text1{
+
+    background-color: dimgrey;
+    width: 150px;
+    height: 50px;
+    float: left;
+
 }
 @media(max-width:1000px){
   .infoto{
@@ -152,3 +208,4 @@
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 
 }
+
