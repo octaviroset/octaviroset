@@ -5,6 +5,26 @@
 body{
     font-family: sans-serif;
 }
+.backk{
+
+
+    background-color: darkgray;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    border-radius: 22px;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding:10px 20px;
+
+}
+.backk:hover
+{
+    background-color: black;
+    color: aliceblue;
+}
+
 header{
     width: 100%;
     background: #4C8FEC;
@@ -85,7 +105,7 @@ header label:hover{
 .contingut{
 
     width: 100%;
-    height: 1970px
+    height: 1830px
 
 }
 .titol{
@@ -97,7 +117,7 @@ header label:hover{
 .texttitol{
 
     height: 60px;
-    width: 200px;
+    width: 3000px;
     font-size: 45px;
     padding-top: 20px;
     padding-left: 40%
@@ -135,14 +155,14 @@ header label:hover{
     margin: auto;
 
 }
-@media (max-width:890px){
+@media (max-width:900px){
 
     .article{
         height: 500px;
     }
 
 }
-@media (max-width:640px){
+@media (max-width:670px){
 
     .article{
         height: 600px;
@@ -163,10 +183,11 @@ header label:hover{
 }
 .info{
     width: 70%;
-    height: 340px;
+    height: 350px;
     background-color: brown;
     margin:auto;
 }
+
 .info1{
     width: 33%;
     height: 100%;
@@ -200,17 +221,109 @@ header label:hover{
 .textinfo{
     width: 77%;
     height: 50px;
-    background-color: aqua;
+
     margin-left: 9%;
     margin-top: 9%;
 }
+.textinfo a{
+
+}
+
+.back{
+
+
+    background-color: white;
+
+
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    padding:8px 15px;
+
+}
+.back:hover
+{
+    background-color: black;
+    color: aliceblue;
+}
+
 
 
 .footer{
-    background-color: darkblue;
+    position: absolute;
     width: 100%;
-    margin-top: %;
-    height: 99px;
+    height: 80px;
+    top: 1750px;
+    background-color: cornflowerblue;
 
+}
+@media (max-width: 721px){
+
+
+    .footer{
+        top: 2350px;
+    }
+}
+@media (max-width: 901px){
+
+
+    .footer{
+        top: 2350px;
+    }
+}
+.caixes{
+
+    background-color: dimgrey;
+    width: 50px;
+    height: 50px;
+    float: left;
+
+}
+#infooo{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 17px;
+
+}
+
+#facebook{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 17px;
+
+
+}
+#insta{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 17px;
+
+
+}
+#twitter{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 17px;
+
+}
+.imatge1{
+
+    width: 100%;
+    height: 100%;
+}
+.caixes:hover{
+
+
+    cursor:grab;
+    transform:scale(1.5);
+
+}
+.text1{
+
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+    float: left;
 
 }
