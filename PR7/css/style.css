@@ -128,6 +128,10 @@ header label:hover{
     width: 100%;
     height: 51px;
 }
+.active{
+    background-color: gray;
+
+}
 
 .general{
     padding-top: 20px;
