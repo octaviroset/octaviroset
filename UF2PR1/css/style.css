@@ -15,7 +15,7 @@
     width: 100%;
 
     display: flex;
-    background-color: aquamarine;
+
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -33,12 +33,12 @@
 .logo{
     width: 90px;
     height: 100%;
-    background-color: blueviolet;
+
 }
 .texttitol{
-    width: 210px;
+    width: 300px;
     height: 100%;
-    background-color: coral;
+
 
 }
 .buscador{
@@ -47,10 +47,13 @@
     height: 22px;
     display: flex;
     padding-left: 15px;
-    background-color: crimson;
+
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-style: solid;
+  border-width: 2px;
+    border-color: black;
 
 }
 .menu>li{
@@ -109,7 +112,7 @@ ul{
     justify-content: space-around;
     align-items: center;
 
-/*    margin-left: 100px;*/
+/*    margin-left: s100px;*/
 /*    margin-right: 50px;*/
 
 
@@ -118,9 +121,13 @@ ul{
 
 .article1{
     width: 90%;
-    background-color: darkgreen;
+    background-color: #FF6F18;
+    text-align:justify;
     height: 200px;
     margin-top: 15px;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: cursive;
 }
 .contenidorcaixa{
 
@@ -135,7 +142,7 @@ ul{
 
     flex: 40%;
     height: 80px;
-    background-color: aqua;
+    background-color: #FF6F18;
     margin: 10px;
     min-width: 300px;
 }
@@ -143,6 +150,7 @@ ul{
     flex: 25%;
     display: flex;
     flex-wrap: wrap;
+    background-color: #FF6F18;
 
 
 }
@@ -155,4 +163,14 @@ ul{
     margin: 10px;
 
 
+}
+
+.footer{
+    width: 100%;
+
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
