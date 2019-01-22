@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flixnet-color{
+    color: #DB202C;
+}
+a:focus{
+    color:#DB202C;
+}
