@@ -17,10 +17,18 @@
 <div class="container-fluid bg-dark">
  <div class="row  d-flex justify-content-between">
  <a class="navbar-brand " href="#"><a href="#"><img src="https://fontmeme.com/permalink/190122/eb9ffeb887a4f172027d2d1295e860b5.png" alt="netflix-font" border="0"></a></a>
+
+
+
    <form class="form-inline mr-4 my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
+
+
+          </form>
+
+          <i class="fa fa-cart-plus" style="font-size:48px;color:red"></i>
+
  </div>
 
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -60,6 +68,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link " href="#">Science</a>
+
       </li>
     </ul>
 
@@ -88,17 +97,20 @@
                             <div class="dtl">
                                 <h3>Lorem Ipsum</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et repellat inventore delectus quam a cupiditate, odit maiores nemo recusandae cum quos commodi molestias veniam adipisci eum reprehenderit sequi vel. Recusandae quo quisquam inventore ullam odio excepturi in itaque, ipsam explicabo aperiam deserunt repellat. Nihil ea tenetur quos numquam pariatur nisi deleniti illo officiis, voluptatum illum distinctio ut voluptate sapiente, cum repellendus delectusst nesciunt alias illo ut </p>
-                                <div class=""> <a href="#">Read More</a>
-                                <a href="#">Read More</a></div>
+                                <div class="row ml-1">
+                                       <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="#" >  Buy</button>
+                               <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="trailers/Peaky.mp4" data-target="#myModal">  trailer</button>
+                               </div>
+
 
                             </div>
                         </div>
 
           </div>
-          <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/peli2.jpeg" class="img-fluid img-responsive w-100" alt=""></div>
-          <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/peli3.jpg" class="img-fluid img-responsive w-100" alt=""></div>
-          <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/peli4.jpg" class="img-fluid img-responsive w-100" alt=""></div>
-             <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/peli1.jpg" class="img-fluid img-responsive w-100" alt=""></div>
+          <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/prison.jpg" class="img-fluid img-responsive w-100" alt=""></div>
+          <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/breakinbad.jpg" class="img-fluid img-responsive w-100" alt=""></div>
+          <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/twd.jpg" class="img-fluid img-responsive w-100" alt=""></div>
+             <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/lacasapapel.jpg"  class="img-fluid img-responsive w-100" alt="" ></div>
           <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/peli2.jpeg" class="img-fluid img-responsive w-100" alt=""></div>
           <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/peli3.jpg" class="img-fluid img-responsive w-100" alt=""></div>
           <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/peli4.jpg" class="img-fluid img-responsive w-100" alt=""></div>
@@ -278,5 +290,75 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+
+      <div class="modal-body">
+
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always">></iframe>
+</div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+      <script>
+
+      $(document).ready(function() {
+
+// Gets the video src from the data-src on each button
+
+var $videoSrc;
+$('.video-btn').click(function() {
+    $videoSrc = $(this).data( "src" );console.log($videoSrc);
+});
+
+
+
+
+// when the modal is opened autoplay it
+$('#myModal').on('shown.bs.modal', function (e) {
+
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+$("#video").attr('src',$videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1" );
+})
+
+
+// stop playing the youtube video when I close the modal
+$('#myModal').on('hide.bs.modal', function (e) {
+    // a poor man's stop video
+    $("#video").attr('src',$videoSrc);
+})
+
+
+
+
+
+
+// document ready
+});
+
+
+
+
+
+
+
+
+      </script>
   </body>
 </html>
