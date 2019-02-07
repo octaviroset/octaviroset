@@ -111,3 +111,8 @@ a:focus{
 }
 
 
+@media (max-width: 750px) {
+  .justify-content-between{
+    justify-content: center !important;
+  }
+}
