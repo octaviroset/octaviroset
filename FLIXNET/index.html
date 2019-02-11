@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"  crossorigin="anonymous">
+<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 
     <title>FlixNet</title>
@@ -99,7 +101,7 @@
                                 <p>Lorem ipsum dolor sit amet, codeserunt repellat. Nihil ea tenetur quos numquam pariatur nisi deleniti illo officiis, voluptatum illum distinctio ut voluptate sapiente, cum repellendus delectusst nesciunt alias illo ut </p>
                                 <div class="row ml-1">
                                        <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="#" >  Buy</button>
-                               <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-src="trailers/Peaky.mp4" data-target="#myModal">  trailer</button>
+                               <button type="button" class="btn btn-primary video-btn" data-toggle="modal" data-target="#myModal">  trailer</button>
                                </div>
 
 
@@ -128,6 +130,8 @@
           <div class="pt-4 col-xl-2 col-lg-3 col-md-4 col-sm-5 col-12"><img src="images/peli4.jpg" class="img-fluid img-responsive w-100" alt=""></div>
       </div>
   </div>
+
+
   <!-- Footer -->
 <footer class="page-footer font-small stylish-color-dark pt-4">
 
@@ -301,6 +305,17 @@ Estats Units d'Amèrica</a>
       <div class="modal-body">
 
        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+   <video  autoplay src="trailers/Peaky.mp4" class="w-100 h-auto"></video>
+    <div style="z-index:1;" class="controlles d-flex w-100 justify-content-around">
+     <span class=" fa fa-backward" style="font-size:50px; z-index:1;"></span>
+     <span class="fa fa-play" style="font-size:50px;"></span>
+     <span class="fa fa-pause" style="font-size:50px;"></span>
+     <span class="fa fa-forward" style="font-size:50px;"></span>
+     <span class="fa fa-stop" style="font-size:50px;"></span>
+     </div>
+
+
           <span aria-hidden="true">&times;</span>
         </button>
         <!-- 16:9 aspect ratio -->
