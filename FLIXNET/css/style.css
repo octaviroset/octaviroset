@@ -173,3 +173,8 @@ a:focus{
 .icon-volume-decrease:before {
   content: "\ea2c";
 }
+
+.control:hover {
+
+    left: 7px;
+}
