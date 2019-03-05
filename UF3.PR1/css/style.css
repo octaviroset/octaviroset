@@ -58,7 +58,7 @@ a:nth-child(4){
 
 .contingut{
     width: 100%;
-    background-color: aquamarine;
+
 
     display: flex;
     flex-wrap: wrap;
@@ -67,14 +67,14 @@ a:nth-child(4){
     flex-direction: column;
     flex: 80%;
    display: flex;
-    background-color: bisque;
+    background-color: white;
     flex-wrap: wrap;
 
 
 }
 .titolprin{
     width: 100%;
-    background-color: aquamarine;
+    background-color: red;
     text-align: center;
     font-size: 2em;
 
@@ -87,7 +87,7 @@ a:nth-child(4){
 }
 .caixa{
 
-    background-color: aqua;
+
     display: flex;
     flex: 25%;
     padding: 10px;
@@ -99,7 +99,7 @@ a:nth-child(4){
     height: 250px;
     width: 250px;
     position: relative;
-    background-color: darkgreen;
+    background-color: white;
 
 }
 
@@ -111,7 +111,7 @@ a:nth-child(4){
 .carta{
     position: absolute;
     height: 0%;
-    background-color: darkkhaki;
+    background-color: white;
     bottom: 0px;
     overflow: hidden;
     transition: height 0.5s;
@@ -141,7 +141,7 @@ a:nth-child(4){
 
 .aside{
     flex: 20%;
-    background-color: darkgoldenrod;
+    background-color: white;
     display: flex;
     flex-direction: column;
     min-width: 290px;
