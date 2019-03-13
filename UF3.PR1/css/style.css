@@ -105,6 +105,7 @@ a:nth-child(4){
     height: 250px;
     width: 250px;
     position: relative;
+    margin: auto;
 
 
 }

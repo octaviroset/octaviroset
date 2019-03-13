@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.titolprinacc {
+    background-color: black;
+    color: yellow;
+    font-size: 2em;
+    border: 2px solid yellow;
+}
+.titolasacc{
+    background-color: black;
+    color: yellow;
+    font-size: 2em;
+    border: 2px solid yellow;
+}
+.titolofficeacc{
+    background-color: black;
+    color: yellow;
+    font-size: 2em;
+    border: 2px solid yellow;
+}
+.headeracc{
+    background-color: black;
+    color: yellow;
+    font-size: 1em;
+}
+.aacc{
+    background-color: black;
+    color: yellow;
+    font-size: 2em;
+    border: 2px solid yellow;
+}
+.cartaacc{
+    background-color: green;
+    color: yellow;
+    font-size: 2em;
+    position: relative;
+    overflow: visible;
+    border: 2px solid yellow;
+
+}
+.bodyacc{
+    background-color: black;
+}
+.pacc{
+    color: yellow;
+}
+.h3acc{
+    color: yellow;
+}
+
+.imatgeacc{
+    position: relative;
+    flex-direction: column;
+    height: auto;
+    width: 400px;
+    display: flex;
+}
+
+.classeimg{
+    height:400px;
+    width: 400px;
+}
+.caixaacc{
+    min-width: 410px;
+}
+.fotoacc{
+    position: relative;
+
+
+
+}
+.classeh2{
+    color: yellow;
+    line-height: 70px;
+    font-size: 3em;
+}
+.classeh3{
+      color: yellow;
+    line-height: 60px;
+    font-size: 2em;
+}
+
+.textacc{
+    color: yellow;
+    line-height: 40px;
+    font-size: 2em;
+    margin-left: 60px;
+}
+
