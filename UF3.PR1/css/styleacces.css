@@ -33,7 +33,7 @@
     border: 2px solid yellow;
 }
 .cartaacc{
-    background-color: green;
+    background-color: black;
     color: yellow;
     font-size: 2em;
     position: relative;
@@ -60,9 +60,12 @@
 }
 
 .classeimg{
-    height:400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
 }
+
+
+
 .caixaacc{
     min-width: 410px;
 }
@@ -74,18 +77,18 @@
 }
 .classeh2{
     color: yellow;
-    line-height: 70px;
+    line-height: 100px;
     font-size: 3em;
 }
 .classeh3{
       color: yellow;
-    line-height: 60px;
+    line-height: 90px;
     font-size: 2em;
 }
 
 .textacc{
     color: yellow;
-    line-height: 40px;
+    line-height: 60px;
     font-size: 2em;
     margin-left: 60px;
 }

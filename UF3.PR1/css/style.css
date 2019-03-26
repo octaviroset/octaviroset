@@ -9,13 +9,14 @@ header{
     width: 100%;
     display: flex;
     background-color: #006989;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 .logo{
-    margin: auto;
 
-    padding-left: 100px;
+
+
 }
 .textmenu{
     display: flex;
@@ -48,17 +49,15 @@ a:nth-child(4){
 
 }
 
-.buscador{
-    width: 150px;
-    /*min-width: 150px;*/
 
-    display: flex;
-    padding-left: 15px;
-
-   margin: auto;
-   border-style: solid;
-   border-width: 2px;
-    border-color: black;
+#Buscador {
+  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+  background-size: 24px;
+  width: 240px;
+  border: transparent;
+  border-bottom: solid 1px #010;
+  padding: 10px 10px 10px 30px;
+  outline: none;
 
 }
 
@@ -110,6 +109,12 @@ a:nth-child(4){
 
 }
 
+
+.foto_cotxe{
+    height: 250px;
+    width: 250px;
+}
+
 .foto{
     position: absolute;
     width: 100%;
@@ -131,9 +136,8 @@ a:nth-child(4){
 }
 
 .caixa  img{
-    height: 250px;
+
     margin: auto;
-    width: 250px;
 }
 
 .titolas{
@@ -214,6 +218,21 @@ font-size: 2em;
 }
 .video video{
     margin: auto;
+}
+.tota{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+}
+.imatgea img{
+    width: 400px;
+    height: 3     00px;
+}
+.texta{
+    margin-left: 20px;
 }
 
 /*
