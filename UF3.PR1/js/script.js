@@ -1,5 +1,50 @@
 $(document).ready(function () {
 
+    var all = document.getElementById("all");
+
+    //FONT SIZE
+    var size = document.getElementById("size");
+
+    size.addEventListener("input",function(){
+        var val=size.value
+
+        all.style.fontSize=val+"px";
+    });
+
+    //INTERLINEAT
+
+    var line = document.getElementById("line");
+
+
+     line.addEventListener("input",function(){
+        var val=line.value
+
+        all.style.lineHeight=val+"px";
+    });
+
+    //DISPLAY NONE
+    var activar = document.getElementById("activar");
+
+
+        activar.addEventListener("click",function(event){
+            event.preventDefault();
+            var menuaccesible = document.getElementById("menuaccesible");
+            var sortir = document.getElementById("sortir");
+
+            menuaccesible.style.display="block";
+            sortir.style.display="block";
+        });
+
+
+    //BACKGROUND COLORS
+
+
+
+
+
+    });
+
+
 //
 //
 //    $("#target" ).click(function() {
@@ -90,24 +135,25 @@ $(document).ready(function () {
 //
 //    });
 
+
      $( "#acces" ).click(function() {
-        $( ".titolprin" ).toggleClass("titolprinacc");
-         $( ".titolas" ).toggleClass("titolasacc");
-         $( ".titoloffice" ).toggleClass("titolofficeacc");
-         $( "header" ).toggleClass("headeracc");
-         $( "a" ).toggleClass("aacc");
+        //$( ".titolprin" ).toggleClass("titolprinacc");
+         //$( ".titolas" ).toggleClass("titolasacc");
+         //$( ".titoloffice" ).toggleClass("titolofficeacc");
+         //$( "header" ).toggleClass("headeracc");
+         //$( "a" ).toggleClass("aacc");
          $( ".carta" ).toggleClass("cartaacc");
-         $( "body" ).toggleClass("bodyacc");
-         $( "p" ).toggleClass("pacc");
-         $( "h3" ).toggleClass("h3acc");
+         //$( "body" ).toggleClass("bodyacc");
+         //$( "p" ).toggleClass("pacc");
+         //$( "h3" ).toggleClass("h3acc");
          $( ".imatge" ).toggleClass("imatgeacc");
          $( ".foto_cotxe" ).toggleClass("classeimg");
          $( ".caixa" ).toggleClass("caixaacc");
 
          $( ".foto" ).toggleClass("fotoacc");
-         $( ".text h2" ).toggleClass("classeh2");
-         $( ".text h3" ).toggleClass("classeh3");
-         $( ".text" ).toggleClass("textacc");
+        // $( ".text h2" ).toggleClass("classeh2");
+         //$( ".text h3" ).toggleClass("classeh3");
+         //$( ".text" ).toggleClass("textacc");
 
 
 
@@ -115,7 +161,7 @@ $(document).ready(function () {
 
        });
 
-});
+
 
 
 

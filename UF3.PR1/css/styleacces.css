@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+/*
 
 .titolprinacc {
     background-color: black;
@@ -32,15 +33,18 @@
     font-size: 2em;
     border: 2px solid yellow;
 }
+*/
 .cartaacc{
-    background-color: black;
-    color: yellow;
-    font-size: 2em;
+    background-color: transparent;
+
+
     position: relative;
     overflow: visible;
-    border: 2px solid yellow;
+
+
 
 }
+/*
 .bodyacc{
     background-color: black;
 }
@@ -50,6 +54,7 @@
 .h3acc{
     color: yellow;
 }
+*/
 
 .imatgeacc{
     position: relative;
@@ -74,6 +79,7 @@
 
 
 
+/*
 }
 .classeh2{
     color: yellow;
@@ -93,3 +99,4 @@
     margin-left: 60px;
 }
 
+*/

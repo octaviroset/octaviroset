@@ -2,13 +2,51 @@
 <html lang="es">
 <head>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/snkjtyleacces.css">
+    <link rel="stylesheet" href="css/styleacces.css">
     <meta charset="UTF-8">
     <title>UF3.PR1</title>
 </head>
 
 <body>
-    <button id="acces">TOOGLE</button>
+
+
+    <div class="displayoptions" >
+        <div class="activador">
+            <a id="activar" href="">Activar</a>
+        </div>
+
+        <div id="menuaccesible" style="display:none;">
+             <div class="pare">
+
+                 <div class="titolopcions"><h1>OPCIONS ACCESSIBILITAT</h1></div>
+
+                  <div class="opcions">
+                  <div class="opcio"><h4>Font-size</h4> <input id="size" type="range" name="points" min="17" max="40">  </div>
+                  <div class="opcio">
+                    <h4>Colors</h4>
+                     <select onchange="x(this)">
+                         <option value="res" style="background-color:black; color:yellow;"></option>
+                          <option value="by" style="background-color:black; color:yellow;">Back and yellow</option>
+                          <option value="bw" >Black and White</option>
+                          <option value="yb" style="background-color:yellow; color:black;">Yellow and Black</option>
+
+                </select>
+                 </div>
+                 <div id="acces"><label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                    </label></div>
+
+                  <div class="opcio">
+                  <h4>Line Spacing</h4>  <input id="line" type="range" name="points" min="20" max="100"> </div>
+                 </div>
+             </div>
+
+
+        </div>
+        <div id="sortir" style="display:none;"><a  href="">SORTIR</a></div>
+    </div>
+    <div id="all">
     <header>
         <div class="logo"><img src="images/logo.png" style="height: 100px;" alt=""></div>
         <div class="textmenu">
@@ -173,10 +211,27 @@
 
     </div>
     <div class="footer"></div>
-
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="js/script.js" type="application/javascript"></script>
 
+    <script>
 
+    function x(b){
+        if(b.value == "by" ){
+            all.style.backgroundColor="black";
+            all.style.color="yellow";
+        }
+        if (b.value == "yb" ){
+            all.style.backgroundColor="yellow";
+            all.style.color="black";
+        }
+        if (b.value == "bw" ){
+            all.style.backgroundColor="white";
+            all.style.color="black";
+        }
+    }
+
+    </script>
 </body>
 </html>

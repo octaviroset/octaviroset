@@ -5,6 +5,39 @@
 body{
     background-color: #EAEBED;
 }
+
+.displayoptions{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#menuaccessible{
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pare{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.titolopcions{
+    display: flex;
+    justify-content: center;
+}
+.opcions{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.opcio{
+    margin-left: 10px;
+}
+
 header{
     width: 100%;
     display: flex;
@@ -123,7 +156,7 @@ a:nth-child(4){
 .carta{
     position: absolute;
     height: 0%;
-    background-color: white;
+   background-color: white;
     bottom: 0px;
     overflow: hidden;
     transition: height 0.5s;
@@ -235,10 +268,9 @@ font-size: 2em;
     margin-left: 20px;
 }
 
+
+
 /*
-
-
-
 
 form {
   padding: 1em;
