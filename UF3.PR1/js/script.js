@@ -2,6 +2,8 @@ $(document).ready(function () {
 
     var all = document.getElementById("all");
 
+
+
     //FONT SIZE
     var size = document.getElementById("size");
 
@@ -9,6 +11,7 @@ $(document).ready(function () {
         var val=size.value
 
         all.style.fontSize=val+"px";
+
     });
 
     //INTERLINEAT

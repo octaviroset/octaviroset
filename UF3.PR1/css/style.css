@@ -38,7 +38,7 @@ body{
     margin-left: 10px;
 }
 
-header{
+#header{
     width: 100%;
     display: flex;
     background-color: #006989;
@@ -109,7 +109,7 @@ a:nth-child(4){
 
 
 }
-.titolprin{
+#titolprin{
     width: 100%;
     background-color: #01A7C2;
     text-align: center;

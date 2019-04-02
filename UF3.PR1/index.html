@@ -47,15 +47,14 @@
         <div id="sortir" style="display:none;"><a  href="">SORTIR</a></div>
     </div>
     <div id="all">
-    <header>
+    <div id="header">
         <div class="logo"><img src="images/logo.png" style="height: 100px;" alt=""></div>
         <div class="textmenu">
             <div class="text"> <h1>DREAMEXOTIX</h1></div>
             <div class="nav">
-
-                <a href="">HOME</a>
-                <a href="aboutus.html">ABOUT</a>
-                <a href="">SERVICES</a>
+                <a id=menunegre href="">HOME</a>
+                <a id=menunegre href="aboutus.html">ABOUT</a>
+                <a id=menunegre href="">SERVICES</a>
 
             </div>
 
@@ -64,12 +63,12 @@
 <input type="search" placeholder="Search" id="Buscador" />
 
 
-    </header>
+    </div>
 
 
     <div class="contingut">
         <div class="principal">
-            <div class="titolprin" lang="en">OUR SERVICES</div>
+            <div id="titolprin" lang="en">OUR SERVICES</div>
             <div class="tot">
 
                 <div class="caixa">
@@ -216,15 +215,22 @@
 <script src="js/script.js" type="application/javascript"></script>
 
     <script>
+       var alle = document.getElementById("header");
 
     function x(b){
         if(b.value == "by" ){
             all.style.backgroundColor="black";
             all.style.color="yellow";
+            alle.style.backgroundColor="black";
+            alle.style.color="yellow";
+
+
         }
         if (b.value == "yb" ){
             all.style.backgroundColor="yellow";
             all.style.color="black";
+            alle.style.backgroundColor="yellow";
+            alle.style.color="black";
         }
         if (b.value == "bw" ){
             all.style.backgroundColor="white";
