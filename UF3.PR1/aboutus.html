@@ -7,81 +7,142 @@
     <title>UF3.PR1</title>
 </head>
 
-
 <body>
-<button id="acces">Accessibilitat</button>
-    <div class="displayoptions" >
+
+
+    <div id="displayoptions" >
         <div class="activador">
-            <a id="activar" href="">Activar</a>
+            <a id="activar" style="border-right:none;" href="">MENU ACCESSIBILITAT</a>
         </div>
 
         <div id="menuaccesible" style="display:none;">
              <div class="pare">
 
-                 <div class="titolopcions"><h1>OPCIONS</h1></div>
+                 <div class="titolopcions"><h1>OPCIONS ACCESSIBILITAT</h1></div>
 
                   <div class="opcions">
-                      <div class="opcio"> <input id="size" type="range" name="points" min="17" max="40">  </div>
-                      <div class="opcio">
-                      <select onchange="x(this)">
-                          <option value="res" style="background-color:black; color:yellow;"></option>
+                  <div class="opcio"><h4>Font-size</h4> <input class="slider" id="size" type="range" name="points" min="17" max="40">  </div>
+                  <div class="opcio">
+                    <h4>Colors</h4>
+                     <select onchange="x(this)">
+                         <option value="res" ></option>
                           <option value="by" style="background-color:black; color:yellow;">Back and yellow</option>
                           <option value="bw" >Black and White</option>
                           <option value="yb" style="background-color:yellow; color:black;">Yellow and Black</option>
 
-                          </select>
-                    </div>
+                </select>
+                 </div>
+                 <div id="acces"><label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+                    </label></div>
+
                   <div class="opcio">
-                      <input id="line" type="range" name="points" min="20" max="100"> </div>
+                  <h4>Line Spacing</h4>  <input class="slider" id="line" type="range" name="points" min="20" max="100"> </div>
                  </div>
              </div>
 
 
         </div>
-        <div id="sortir" style="display:none;"><a  href="">SORTIR</a></div>
+        <div id="sortir" style="display:none;"><a  style="border-right:none;" href="">SORTIR</a></div>
     </div>
     <div id="all">
-    <header>
+    <div id="header">
+
         <div class="logo"><img src="images/logo.png" style="height: 100px;" alt=""></div>
         <div class="textmenu">
             <div class="text"> <h1>DREAMEXOTIX</h1></div>
             <div class="nav">
-
-                <a href="index.html">HOME</a>
-                <a href="aboutus.html">ABOUT</a>
-                <a href="">SERVICES</a>
+                <a id="menucolors1" href="index.html">HOME</a>
+                <a id="menucolors2" href="aboutus.html">ABOUT</a>
+                <a id="menucolors3" href="">SERVICES</a>
 
             </div>
 
         </div>
 
+<input type="search" placeholder="Search" id="Buscador" />
 
-        <input type="search" placeholder="Search" id="Buscador" />
 
-    </header>
+    </div>
 
 
     <div class="contingut">
+
         <div class="principal">
-             <div class="imatgeporsche"><img src="images/porscheabout.jpg" alt=""></div>
-            <div class="tota">
-
-
-               <div class="imatgea"><img src="images/bmwabout.jpg" alt=""></div>
-
-               <div class="texta"><h1>About Us</h1>
-                El 7 de marzo de 2016, BMW Group estará celebrando 100 años de existir como empresa. Durante este lapso, un pequeño productor de motores de avión con sede en el norte de Múnich se ha transformado en un fabricante líder a nivel mundial de automóviles y motocicletas, así como un proveedor de servicios Premium de finanzas y movilidad. En el camino a este estatus, BMW siempre ha probado ser una empresa altamente innovadora que ha definido el cambio y ha tenido visión hacia el futuro. Hoy en día, BMW Group es un grupo internacional de empresas con instalaciones de producción y ensamblaje en 14 países en una red de ventas globales. La empresa hace contribuciones significativas para diseñar la movilidad individual del futuro.</div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-    <div class="office">
         <div class="titoloffice">
+            <p lang="en">OUR OFFICE</p>
+        </div>
+        <div class="officeprincipal">
+           <div class="taula">
+               <table>
+                   <caption>ELS MÉS VENUTS DEL 2018</caption>
+                    <tr>
+                        <th>Model</th>
+                        <th>Tipus</th>
+                        <th>Carburant</th>
+                        <th>Unitats venudes</th>
+                    </tr>
+                    <tr>
+                        <th>Seat Altea XL</th>
+                        <td>Familiar</td>
+                        <td>Diesel</td>
+                        <td>3800</td>
+                    </tr>
+                    <tr>
+                        <th>Volkswgen Golf</th>
+                        <td>Turisme</td>
+                        <td>Gasolina</td>
+                        <td>5400</td>
+                    </tr>
+                    <tr>
+                        <th>Volkswgen Golf</th>
+                        <td>Turisme</td>
+                        <td>Gasolina</td>
+                        <td>5400</td>
+                    </tr>
+                    <tr>
+                        <th>Volkswgen Golf</th>
+                        <td>Turisme</td>
+                        <td>Gasolina</td>
+                        <td>5400</td>
+                    </tr>
+                    <tr>
+                        <th>Volkswgen Golf</th>
+                        <td>Turisme</td>
+                        <td>Gasolina</td>
+                        <td>5400</td>
+                    </tr>
+                    <tr>
+                        <th>Volkswgen Golf</th>
+                        <td>Turisme</td>
+                        <td>Gasolina</td>
+                        <td>5400</td>
+                    </tr>
+                    <tr>
+                        <th>Volkswgen Golf</th>
+                        <td>Turisme</td>
+                        <td>Gasolina</td>
+                        <td>5400</td>
+                    </tr>
+                    <tr>
+                        <th>Volkswgen Golf</th>
+                        <td>Turisme</td>
+                        <td>Gasolina</td>
+                        <td>5400</td>
+                    </tr>
+                    <tr>
+                        <th>Volkswgen Golf</th>
+                        <td>Turisme</td>
+                        <td>Gasolina</td>
+                        <td>5400</td>
+                    </tr>
+                </table>
 
+
+
+           </div>
+            </div>
 <!--            FORMULARI
             <div class="formulari">
                 <form class="form1" action="">
@@ -108,11 +169,61 @@
 
 
     </div>
-        <div class="footer"></div>
+
+
+
+
     </div>
+    <div class="footer"></div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="js/script.js" type="application/javascript"></script>
 
+    <script>
+       var alle = document.getElementById("header");
+        var menucolors1 = document.getElementById("menucolors1");
+         var menucolors2 = document.getElementById("menucolors2");
+         var menucolors3 = document.getElementById("menucolors3");
+         var displayoptions = document.getElementById("displayoptions");
+    function x(b){
+        if(b.value == "by" ){
+            all.style.backgroundColor="black";
+            all.style.color="yellow";
+            alle.style.backgroundColor="black";
+            alle.style.color="yellow";
+            displayoptions.style.backgroundColor="black";
+            displayoptions.style.color="yellow";
+            menucolors1.style.color="yellow";
+            menucolors2.style.color="yellow";
+            menucolors3.style.color="yellow";
 
+
+        }
+        if (b.value == "yb" ){
+            all.style.backgroundColor="yellow";
+            all.style.color="black";
+            alle.style.backgroundColor="yellow";
+            alle.style.color="black";
+            displayoptions.style.backgroundColor="yellow";
+            displayoptions.style.color="black";
+            menucolors1.style.color="black";
+            menucolors2.style.color="black";
+            menucolors3.style.color="black";
+        }
+        if (b.value == "bw" ){
+            all.style.backgroundColor="white";
+            all.style.color="black";
+            alle.style.backgroundColor="white";
+            alle.style.color="black";
+            displayoptions.style.backgroundColor="white";
+            displayoptions.style.color="black";
+            menucolors1.style.color="black";
+            menucolors2.style.color="black";
+            menucolors3.style.color="black";
+
+        }
+    }
+
+    </script>
 </body>
 </html>
