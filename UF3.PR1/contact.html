@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+   <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styleacces.css">
     <meta charset="UTF-8">
@@ -11,7 +13,7 @@
 
 
     <div id="displayoptions" >
-        <div class="activador">
+        <div id="activador" class="activador">
             <a id="activar" style="border-right:none;" href="">MENU ACCESSIBILITAT</a>
         </div>
 
@@ -32,9 +34,10 @@
 
                 </select>
                  </div>
-                 <div id="acces"><label class="switch">
-                  <input type="checkbox">
-                  <span class="slider round"></span>
+                 <div id="acces">
+                 <h4>Accessible</h4>
+                 <label style="padding-left: 33px; " class="switch"><input  type="checkbox">
+
                     </label></div>
 
                   <div class="opcio">
@@ -44,7 +47,8 @@
 
 
         </div>
-        <div id="sortir" style="display:none;"><a  style="border-right:none;" href="">SORTIR</a></div>
+        <div id="sortir" style="display:none;"><a  style="border-right:none;" href=""><div id="sortirr">SORTIR</div></a>
+        </div>
     </div>
     <div id="all">
     <div id="header">
@@ -53,8 +57,8 @@
         <div class="textmenu">
             <div class="text"> <h1>DREAMEXOTIX</h1></div>
             <div class="nav">
-                <a id="menucolors1" href="index.html">HOME</a>
-                <a id="menucolors2" href="aboutus.html">PRICES</a>
+                <a id="menucolors1" href="">HOME</a>
+                <a id="menucolors2" href="aboutus.html">ABOUT</a>
                 <a id="menucolors3" href="contact.html">CONTACT</a>
 
             </div>
@@ -68,82 +72,56 @@
 
 
     <div class="contingut">
-
         <div class="principal">
-        <div class="titoloffice">
-            <p lang="en">OUR OFFICE</p>
-        </div>
-        <div class="officeprincipal">
-           <div class="taula">
-               <table>
-                   <caption>ELS MÉS VENUTS DEL 2018</caption>
-                    <tr>
-                        <th id="m">Model</th>
-                        <th id="t">Tipus</th>
-                        <th id="c">Carburant</th>
-                        <th id="u">Unitats venudes</th>
-                    </tr>
-                    <tr>
-                        <td headers="c1 m" >Seat Altea XL</td>
-                        <td headers="c1 t">Familiar</td>
-                        <td headers="c1 c">Diesel</td>
-                        <td headers="c1 u">3800</td>
-                    </tr>
-                    <tr>
-                        <td headers="c2 m">Volkswgen Golf</td>
-                        <td headers="c2 t">Turisme</td>
-                        <td headers="c2 c">Gasolina</td>
-                        <td headers="c2 u">5400</td>
-                    </tr>
-                    <tr>
-                        <td headers="c2 m">Volkswgen Golf</td>
-                        <td headers="c2 t">Turisme</td>
-                        <td headers="c2 c">Gasolina</td>
-                        <td headers="c2 u">5400</td>
-                    </tr>
-                    <tr>
-                        <td headers="c3 m">Volkswgen Golf</td>
-                        <td headers="c3 t">Turisme</td>
-                        <td headers="c3 c">Gasolina</td>
-                        <td headers="c3 u">5400</td>
-                    </tr>
-                    <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
-                    </tr>
-                    <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
-                    </tr>
-                    <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
-                    </tr>
-                    <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
-                    </tr>
-                    <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
-                    </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
+            <div id="titolprin" lang="en">OUR SERVICES</div>
+
+ <div class="contain">
+
+  <div class="wrapper">
+    <div class="contacts">
+      <h3>Our contacts</h3>
+
+      <ul>
+        <li>DREAMEXOTIC</li>
+        <li>+93 93 883 45 55</li>
+        <li>octavi@gmail.com</li>
+      </ul>
     </div>
+
+    <div class="form">
+      <h3>Send us a message</h3>
+      <form action="">
+        <p>
+          <label for="">Your name</label>
+          <input type="text">
+        </p>
+        <p>
+          <label for="">Phone</label>
+          <input type="text">
+        </p>
+        <p>
+          <label for="">Email Address</label>
+          <input type="text">
+        </p>
+        <p>
+          <label for="">Topic</label>
+          <input type="text">
+        </p>
+        <p>
+          <label for="">Write your message</label>
+          <textarea name="" id="" cols="30" rows="7"></textarea>
+        </p>
+        <p>
+          <button>Send</button>
+        </p>
+      </form>
+    </div>
+  </div>
 </div>
- <div class="footer">
+
+        </div>
+
+<div class="footer">
 
     <div class="social">
         <div class="insta"><a href="#" style = "border: none; " class="fa fa-facebook"></a>
@@ -155,6 +133,13 @@
     <div class="contact">+93 938 89 02 93</div>
 
 </div>
+    </div>
+
+
+
+
+    </div>
+    <div class="footer"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="js/script.js" type="application/javascript"></script>
@@ -165,6 +150,10 @@
          var menucolors2 = document.getElementById("menucolors2");
          var menucolors3 = document.getElementById("menucolors3");
          var displayoptions = document.getElementById("displayoptions");
+
+        var sortirr = document.getElementById("sortirr");
+        var activador = document.getElementById("activador");
+
     function x(b){
         if(b.value == "by" ){
             all.style.backgroundColor="black";
@@ -176,6 +165,7 @@
             menucolors1.style.color="yellow";
             menucolors2.style.color="yellow";
             menucolors3.style.color="yellow";
+            activar.style.color="yellow";
 
 
         }
@@ -189,6 +179,7 @@
             menucolors1.style.color="black";
             menucolors2.style.color="black";
             menucolors3.style.color="black";
+
         }
         if (b.value == "bw" ){
             all.style.backgroundColor="white";
@@ -200,6 +191,7 @@
             menucolors1.style.color="black";
             menucolors2.style.color="black";
             menucolors3.style.color="black";
+
 
         }
     }

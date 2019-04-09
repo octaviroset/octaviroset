@@ -33,7 +33,7 @@ $(document).ready(function () {
             event.preventDefault();
             var menuaccesible = document.getElementById("menuaccesible");
             var sortir = document.getElementById("sortir");
-
+            activar.style.display="none";
             menuaccesible.style.display="block";
             sortir.style.display="block";
         });

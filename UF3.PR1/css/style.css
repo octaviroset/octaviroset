@@ -14,7 +14,7 @@ body{
 }
 
 #menuaccessible{
-    background-color: brown;
+
     display: flex;
     justify-content: space-between;
 
@@ -31,6 +31,7 @@ body{
 }
 .opcions{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
 }
@@ -284,14 +285,18 @@ font-size: 2em;
 
 
 .footer{
+    background-color: #006989;
+
     width: 100%;
     display: flex;
-    background-color: aquamarine;
+    flex-wrap: wrap;
+
     justify-content: space-around;
 }
 .social{
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 .mail{
@@ -300,22 +305,22 @@ font-size: 2em;
 
 }
 .contact{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
 /*RANGE*/
 
 .opcio {
-  width: 100%; /* Width of the outside container */
+
 }
 
 /* The slider itself */
 .slider {
   -webkit-appearance: none;  /* Override default CSS styles */
   appearance: none;
-  width: 100%; /* Full-width */
+  width: 180pxpx; /* Full-width */
   height: 15px; /* Specified height */
   border-radius: 5px;
   background:#01A7C2 ; /* Grey background */
@@ -349,65 +354,127 @@ font-size: 2em;
   cursor: pointer; /* Cursor on hover */
 }
 
-/*
 
-form {
+
+* {
+  box-sizing: border-box;
+}
+
+/**************************************/
+@media (min-width: 700px) {
+  .wrapper {
+    overflow: hidden;
+  }
+  .wrapper > * {
+    float: left;
+    padding: 2em 2em;
+  }
+}
+
+@media (min-width: 700px) {
+  .contacts {
+    width: 30%;
+    min-height: 620px;
+  }
+}
+
+@media (min-width: 700px) {
+  .form {
+    width: 70%;
+  }
+}
+
+form p {
+  float: left;
+  width: 49%;
+}
+form p:not(:nth-child(2n)) {
+  margin-right: 2%;
+}
+form p:last-child {
+  clear: both;
+  width: 100%;
+}
+form p:nth-last-child(2) {
+  clear: both;
+  width: 100%;
+}
+
+/**************************************/
+body {
+  padding: 1rem;
+}
+
+.wrapper {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+.wrapper > * {
   padding: 1em;
-  background: #f9f9f9;
-  border: 1px solid #c1c1c1;
-  margin-top: 2rem;
-  max-width: 600px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts {
+  background: #4b5195;
+  color: #fff;
+}
+
+.form {
+  background: #fff;
+}
+
+form label {
+  display: block;
+}
+
+button,
+input,
+textarea {
+  padding: 1em;
+}
+
+button {
+  background: lightgrey;
+  width: 100%;
+  border: 0;
+}
+button:hover, button:focus {
+  background: gold;
+  outline: 0;
+}
+
+.contain {
+  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
 }
-form input {
+@media (min-width: 600px) {
+  .contain {
+    padding: 0;
+  }
+}
+
+h3,
+ul {
+  margin: 0;
+}
+
+h3 {
   margin-bottom: 1rem;
-  background: #fff;
-  border: 1px solid #9c9c9c;
-}
-form button {
-  background: lightgrey;
-  padding: 0.7em;
-  border: 0;
-}
-form button:hover {
-  background: gold;
 }
 
-label {
-  text-align: right;
-  display: block;
-  padding: 0.5em 1.5em 0.5em 0;
-}
-
-input {
-  width: 100%;
-  padding: 0.7em;
-  margin-bottom: 0.5rem;
-}
-input:focus {
+input:focus,
+textarea:focus {
   outline: 3px solid gold;
 }
 
-@media (min-width: 400px) {
-  form {
-    overflow: hidden;
-  }
-
-  label {
-    float: left;
-    width: 200px;
-  }
-
-  input {
-    float: left;
-    width: calc(100% - 200px);
-  }
-
-  button {
-    float: right;
-    width: calc(100% - 200px);
-  }
+input,
+textarea,
+button {
+  width: 100%;
+  border: 1px solid #000;
 }
-*/

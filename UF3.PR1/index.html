@@ -13,7 +13,7 @@
 
 
     <div id="displayoptions" >
-        <div class="activador">
+        <div id="activador" class="activador">
             <a id="activar" style="border-right:none;" href="">MENU ACCESSIBILITAT</a>
         </div>
 
@@ -34,9 +34,10 @@
 
                 </select>
                  </div>
-                 <div id="acces"><label class="switch">
-                  <input type="checkbox">
-                  <span class="slider round"></span>
+                 <div id="acces">
+                 <h4>Accessible</h4>
+                 <label style="padding-left: 33px; " class="switch"><input  type="checkbox">
+
                     </label></div>
 
                   <div class="opcio">
@@ -46,7 +47,8 @@
 
 
         </div>
-        <div id="sortir" style="display:none;"><a  style="border-right:none;" href="">SORTIR</a></div>
+        <div id="sortir" style="display:none;"><a  style="border-right:none;" href=""><div id="sortirr">SORTIR</div></a>
+        </div>
     </div>
     <div id="all">
     <div id="header">
@@ -56,8 +58,8 @@
             <div class="text"> <h1>DREAMEXOTIX</h1></div>
             <div class="nav">
                 <a id="menucolors1" href="">HOME</a>
-                <a id="menucolors2" href="aboutus.html">ABOUT</a>
-                <a id="menucolors3" href="">SERVICES</a>
+                <a id="menucolors2" href="aboutus.html">PRICES</a>
+                <a id="menucolors3" href="contact.html">CONTACT</a>
 
             </div>
 
@@ -89,7 +91,7 @@
                 <div class="caixa">
                     <div class="imatge">
                         <div class="foto"><img class="foto_cotxe"  src="images/mercedes.jpg" alt=""></div>
-                        <div class="carta"><q lang="es">Conjugan lujo, deportividad y prestaciones. Con carrocería de berlina, Estate, coupé, cabrio, roadster, SUV SUV SUV y otras. </q></div>
+                        <div class="carta"><q lang="es">Conjugan lujo, deportividad y y prestaciones. Con carrocería de berlina, Estate,   coupé, cabrio, roadster, SUV, 4x4 entre otros. </q></div>
                     </div>
                 </div>
                 <div class="caixa">
@@ -101,7 +103,7 @@
                 <div class="caixa">
                     <div class="imatge">
                         <div class="foto"><img class="foto_cotxe"  src="images/vw3.jpg" alt=""></div>
-                        <div class="carta"><q lang="fr">Du luxe du luxe de la sportivité et et et de la performance. Berline, Break, Coupé, Cabriolet, roadster, SUV et plus encore.</q></div>
+                        <div class="carta"><q lang="fr">Du luxe du luxe de la sportivité et et et de la performance. Berline, Break, Coupé, Cabriolet, roadster, SUV et plus and 4x4.</q></div>
                     </div>
                 </div>
                 <div class="caixa">
@@ -163,13 +165,13 @@
 <div class="footer">
 
     <div class="social">
-        <div class="insta"><a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a></div>
-        <div class="facebook"></div>
-        <div class="twiter"></div>
+        <div class="insta"><a href="#" style = "border: none; " class="fa fa-facebook"></a>
+<a href="#" style = "border: none; "  class="fa fa-twitter"></a></div>
+
+
     </div>
-    <div class="mail">octavi roset riera</div>
-    <div class="contact">1616161616168</div>
+    <div class="mail">Contact with us: <br> <a style = "border: none; "href="octaviroset@gmail.com">octaviroset@gmail.com</a></div>
+    <div class="contact">+93 938 89 02 93</div>
 
 </div>
     </div>
@@ -178,7 +180,7 @@
 
 
     </div>
-    <div class="footer"></div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="js/script.js" type="application/javascript"></script>
@@ -189,6 +191,10 @@
          var menucolors2 = document.getElementById("menucolors2");
          var menucolors3 = document.getElementById("menucolors3");
          var displayoptions = document.getElementById("displayoptions");
+
+        var sortirr = document.getElementById("sortirr");
+        var activador = document.getElementById("activador");
+
     function x(b){
         if(b.value == "by" ){
             all.style.backgroundColor="black";
@@ -200,7 +206,8 @@
             menucolors1.style.color="yellow";
             menucolors2.style.color="yellow";
             menucolors3.style.color="yellow";
-
+            activar.style.color="yellow";
+            sortirr.style.color="yellow";
 
         }
         if (b.value == "yb" ){
