@@ -67,6 +67,13 @@ body {
     flex-wrap: wrap;
 }
 
+a:hover{
+
+    background-color: #01A7C2;
+
+    border-radius:  22px;
+}
+
 .taula {
 
     padding-top: 20px;
