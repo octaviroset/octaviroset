@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styleacces.css">
@@ -12,13 +12,13 @@
 
     <div id="displayoptions" >
         <div class="activador">
-            <a id="activar" style="border-right:none;" href="">MENU ACCESSIBILITAT</a>
+            <a id="activar" style="border-right:none;" href="">ACCESIBLE MENU</a>
         </div>
 
         <div id="menuaccesible" style="display:none;">
              <div class="pare">
 
-                 <div class="titolopcions"><h1>OPCIONS ACCESSIBILITAT</h1></div>
+                 <div class="titolopcions"><h1>ACCESIBLE OPTIONS </h1></div>
 
                   <div class="opcions">
                   <div class="opcio"><h4>Font-size</h4> <input class="slider" id="size" type="range" name="points" min="17" max="40">  </div>
@@ -32,10 +32,7 @@
 
                 </select>
                  </div>
-                 <div id="acces"><label class="switch">
-                  <input type="checkbox">
-                  <span class="slider round"></span>
-                    </label></div>
+
 
                   <div class="opcio">
                   <h4>Line Spacing</h4>  <input class="slider" id="line" type="range" name="points" min="20" max="100"> </div>
@@ -53,17 +50,18 @@
         <div class="textmenu">
             <div class="text"> <h1>DREAMEXOTIX</h1></div>
             <div class="nav">
-                <a id="menucolors1" href="index.html">HOME</a>
-                <a id="menucolors2" href="aboutus.html">PRICES</a>
-                <a id="menucolors3" href="contact.html">CONTACT</a>
-
+                <ul class="no-style horizontal">
+                <li><a id="menucolors1" href="index.html">HOME</a></li>
+                <li><a id="menucolors2" href="aboutus.html">PRICES</a></li>
+                <li><a style="border-right: none;" id="menucolors3" href="contact.html">CONTACT</a></li>
+                </ul>
             </div>
 
         </div>
+<form>
+<input type="text" style="background-color: #01A7C2" value="Search..." onfocus="if (this.value == 'Buscar...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}" />
 
-<input type="search" placeholder="Search" id="Buscador" />
-
-
+</form>
     </div>
 
 
@@ -76,24 +74,24 @@
         <div class="officeprincipal">
            <div class="taula">
                <table>
-                   <caption>ELS MÉS VENUTS DEL 2018</caption>
+                   <caption lang="ca">ELS MÉS VENUTS DEL 2018</caption>
                     <tr>
-                        <th id="m">Model</th>
-                        <th id="t">Tipus</th>
-                        <th id="c">Carburant</th>
-                        <th id="u">Unitats venudes</th>
+                        <th lang="ca" id="m">Model</th>
+                        <th lang="ca" id="t">Tipus</th>
+                        <th lang="ca" id="c">Carburant</th>
+                        <th lang="ca" id="u">Unitats venudes</th>
                     </tr>
                     <tr>
-                        <td headers="c1 m" >Seat Altea XL</td>
-                        <td headers="c1 t">Familiar</td>
-                        <td headers="c1 c">Diesel</td>
-                        <td headers="c1 u">3800</td>
+                        <td lang="es" headers="c1 m" >Seat Altea XL</td>
+                        <td lang="ca" headers="c1 t">Familiar</td>
+                        <td lang="es" headers="c1 c">Diesel</td>
+                        <td lang="ca" headers="c1 u">3800</td>
                     </tr>
                     <tr>
-                        <td headers="c2 m">Volkswgen Golf</td>
-                        <td headers="c2 t">Turisme</td>
-                        <td headers="c2 c">Gasolina</td>
-                        <td headers="c2 u">5400</td>
+                        <td lang="al" headers="c2 m">Volkswgen Golf</td>
+                        <td lang="ca" headers="c2 t">Turisme</td>
+                        <td lang="es" headers="c2 c">Gasolina</td>
+                        <td lang="ca"  headers="c2 u">5400</td>
                     </tr>
                     <tr>
                         <td headers="c2 m">Volkswgen Golf</td>
@@ -108,34 +106,33 @@
                         <td headers="c3 u">5400</td>
                     </tr>
                     <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
+                        <td headers="c4 m">Volkswgen Golf</td>
+                        <td headers="c4 t">Turisme</td>
+                        <td headers="c4 c">Gasolina</td>
+                        <td headers="c4 u">5400</td>
                     </tr>
                     <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
+                       <td headers="c5 m">Volkswgen Golf</td>
+                        <td headers="c5 t">Turisme</td>
+                        <td headers="c5 c">Gasolina</td>
+                        <td headers="c5 u">5400</td>                    </tr>
+                    <tr>
+                       <td headers="c6 m">Volkswgen Golf</td>
+                        <td headers="c6 t">Turisme</td>
+                        <td headers="c6 c">Gasolina</td>
+                        <td headers="c6 u">5400</td>
                     </tr>
                     <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
+                        <td headers="c7 m">Volkswgen Golf</td>
+                        <td headers="c7 t">Turisme</td>
+                        <td headers="c7 c">Gasolina</td>
+                        <td headers="c7 u">5400</td>
                     </tr>
                     <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
-                    </tr>
-                    <tr>
-                        <td>Volkswgen Golf</td>
-                        <td>Turisme</td>
-                        <td>Gasolina</td>
-                        <td>5400</td>
+                       <td headers="c8 m">Volkswgen Golf</td>
+                        <td headers="c8 t">Turisme</td>
+                        <td headers="c8 c">Gasolina</td>
+                        <td headers="c8 u">5400</td>
                     </tr>
                     </table>
                 </div>

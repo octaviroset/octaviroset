@@ -14,13 +14,13 @@
 
     <div id="displayoptions" >
         <div id="activador" class="activador">
-            <a id="activar" style="border-right:none;" href="">MENU ACCESSIBILITAT</a>
+            <a id="activar" style="border-right:none;" href="">ACCESIBLE MENU</a>
         </div>
 
         <div id="menuaccesible" style="display:none;">
              <div class="pare">
 
-                 <div class="titolopcions"><h1>OPCIONS ACCESSIBILITAT</h1></div>
+                 <div class="titolopcions"><h1>ACCESIBLE OPTIONS</h1></div>
 
                   <div class="opcions">
                   <div class="opcio"><h4>Font-size</h4> <input class="slider" id="size" type="range" name="points" min="17" max="40">  </div>
@@ -34,11 +34,7 @@
 
                 </select>
                  </div>
-                 <div id="acces">
-                 <h4>Accessible</h4>
-                 <label style="padding-left: 33px; " class="switch"><input  type="checkbox">
 
-                    </label></div>
 
                   <div class="opcio">
                   <h4>Line Spacing</h4>  <input class="slider" id="line" type="range" name="points" min="20" max="100"> </div>
@@ -57,16 +53,18 @@
         <div class="textmenu">
             <div class="text"> <h1>DREAMEXOTIX</h1></div>
             <div class="nav">
-                <a id="menucolors1" href="">HOME</a>
-                <a id="menucolors2" href="aboutus.html">ABOUT</a>
-                <a id="menucolors3" href="contact.html">CONTACT</a>
+                <a id="menucolors1" href="index.html">HOME</a>
+                <a id="menucolors2" href="aboutus.html">PRICES</a>
+                <a style="border-right: none;" id="menucolors3" href="contact.html">CONTACT</a>
 
             </div>
 
         </div>
 
-<input type="search" placeholder="Search" id="Buscador" />
+<form>
+<input type="text" style="background-color: #01A7C2" value="Search..." onfocus="if (this.value == 'Buscar...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Buscar...';}" />
 
+</form>
 
     </div>
 

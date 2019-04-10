@@ -1,53 +1,73 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: #EAEBED;
 }
 
-#displayoptions{
+#displayoptions {
     background-color: #006989;
     display: flex;
     justify-content: space-around;
 
 }
 
-#menuaccessible{
+.no-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal li {
+    float: left;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+#menuaccessible {
 
     display: flex;
     justify-content: space-between;
 
 }
-.pare{
+
+.pare {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 
 }
-.titolopcions{
+
+.titolopcions {
     display: flex;
     justify-content: center;
 }
-.opcions{
+
+.opcions {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
 }
-.opcio{
+
+.opcio {
     margin-left: 10px;
 }
 
-#header{
+#header {
     width: 100%;
     display: flex;
-        background-color: #006989;
+    background-color: #006989;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
-.taula{
+
+.taula {
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -55,40 +75,46 @@ body{
 
 
 }
-td{
-    border: 2px solid black ;
+
+td {
+    border: 2px solid black;
     padding: 10px;
     background-color: gainsboro;
 }
-th{
-    border: 2px solid black ;
+
+th {
+    border: 2px solid black;
     padding: 10px;
     background-color: darkgray;
 }
-caption{
-    border: 2px solid black ;
+
+caption {
+    border: 2px solid black;
     background-color: gray;
 }
-.logo{
 
-}
-.textmenu{
+.logo {}
+
+.textmenu {
     display: flex;
     flex-direction: column;
 
 
 }
-.text{
+
+.text {
     margin: auto;
 
 }
-.nav{
+
+.nav {
 
     margin: auto;
-
+    margin-bottom: 15px;
 
 }
-a{
+
+a {
 
     padding-right: 15px;
     padding-left: 15px;
@@ -96,55 +122,50 @@ a{
     color: black;
 
 
-    border-right: 1px solid black ;
-}
-a:nth-child(4){
-    border:  none;
-
+    border-right: 1px solid black;
 }
 
-
-#Buscador {
-  background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
-  background-size: 24px;
-  width: 240px;
-  border: transparent;
-  border-bottom: solid 1px #010;
-  padding: 10px 10px 10px 30px;
-  outline: none;
+a:nth-child(4) {
+    border: none;
 
 }
 
-.contingut{
+
+
+.contingut {
     width: 100%;
 
     display: flex;
     flex-wrap: wrap;
 }
-.principal{
+
+.principal {
     flex-direction: column;
     flex: 80%;
-   display: flex;
+    display: flex;
 
     flex-wrap: wrap;
 
 
 }
-#titolprin{
+
+#titolprin {
     width: 100%;
     background-color: #01A7C2;
     text-align: center;
     font-size: 2em;
 
 }
-.tot{
+
+.tot {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex: auto;
 
 }
-.caixa{
+
+.caixa {
 
 
     display: flex;
@@ -154,47 +175,49 @@ a:nth-child(4){
     justify-content: center;
     align-items: center;
 }
-.imatge{
+
+.imatge {
     height: 250px;
     width: 250px;
     position: relative;
-  /*  margin: auto;*/
+    /*  margin: auto;*/
 
 
 }
 
 
-.foto_cotxe{
+.foto_cotxe {
     height: 250px;
     width: 250px;
 }
 
-.foto{
+.foto {
     position: absolute;
     width: 100%;
     height: 100%;
 }
-.carta{
+
+.carta {
     position: absolute;
     height: 0%;
-   background-color: white;
+    background-color: white;
     bottom: 0px;
     overflow: hidden;
     transition: height 0.5s;
     opacity: 0.9;
 }
 
-.imatge:hover .carta{
+.imatge:hover .carta {
     height: 30%;
 
 }
 
-.caixa  img{
+.caixa img {
 
     margin: auto;
 }
 
-.titolas{
+.titolas {
     text-align: center;
     font-size: 2em;
     background-color: #01A7C2;
@@ -202,7 +225,7 @@ a:nth-child(4){
 
 
 
-.aside{
+.aside {
     flex: 20%;
 
     display: flex;
@@ -211,7 +234,8 @@ a:nth-child(4){
 
 
 }
-.contingutaside{
+
+.contingutaside {
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
@@ -220,7 +244,8 @@ a:nth-child(4){
 
 
 }
-.caixaas{
+
+.caixaas {
 
 
     display: flex;
@@ -229,7 +254,8 @@ a:nth-child(4){
     justify-content: center;
 
 }
-.caixaas img{
+
+.caixaas img {
 
 
     height: 160px;
@@ -238,7 +264,8 @@ a:nth-child(4){
 
 
 }
-.office{
+
+.office {
     width: 100%;
     margin-top: 30px;
 
@@ -247,14 +274,15 @@ a:nth-child(4){
     flex-direction: column;
 
 }
-.titoloffice{
+
+.titoloffice {
     width: 100%;
-background-color: #01A7C2;
+    background-color: #01A7C2;
     text-align: center;
-font-size: 2em;
+    font-size: 2em;
 }
 
-.officeprincipal{
+.officeprincipal {
     width: 100%;
 
     display: flex;
@@ -264,10 +292,11 @@ font-size: 2em;
 
 }
 
-.video video{
+.video video {
     margin: auto;
 }
-.tota{
+
+.tota {
     width: 50%;
     margin: auto;
     display: flex;
@@ -275,16 +304,18 @@ font-size: 2em;
     margin-top: 100px;
 
 }
-.imatgea img{
+
+.imatgea img {
     width: 400px;
-    height: 3     00px;
+    height: 3 00px;
 }
-.texta{
+
+.texta {
     margin-left: 20px;
 }
 
 
-.footer{
+.footer {
     background-color: #006989;
 
     width: 100%;
@@ -293,18 +324,21 @@ font-size: 2em;
 
     justify-content: space-around;
 }
-.social{
+
+.social {
 
     padding-top: 50px;
     padding-bottom: 50px;
 
 }
-.mail{
+
+.mail {
     padding-top: 40px;
     padding-bottom: 40px;
 
 }
-.contact{
+
+.contact {
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -312,169 +346,256 @@ font-size: 2em;
 
 /*RANGE*/
 
-.opcio {
-
-}
+.opcio {}
 
 /* The slider itself */
 .slider {
-  -webkit-appearance: none;  /* Override default CSS styles */
-  appearance: none;
-  width: 180pxpx; /* Full-width */
-  height: 15px; /* Specified height */
-  border-radius: 5px;
-  background:#01A7C2 ; /* Grey background */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 180pxpx;
+    /* Full-width */
+    height: 15px;
+    /* Specified height */
+    border-radius: 5px;
+    background: #01A7C2;
+    /* Grey background */
+    outline: none;
+    /* Remove outline */
+    opacity: 0.7;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
 }
 
 /* Mouse-over effects */
 .slider:hover {
-  opacity: 1; /* Fully shown on mouse-over */
+    opacity: 1;
+    /* Fully shown on mouse-over */
 }
 
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
-  appearance: none;
-  width: 25px; /* Set a specific slider handle width */
-  height: 25px;
-  border-radius: 50%;
-  background: #006989; /* Green background */
-  cursor: pointer; /* Cursor on hover */
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    border-radius: 50%;
+    background: #006989;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
 }
 
 .slider::-moz-range-thumb {
-  width: 25px; /* Set a specific slider handle width */
-   height: 25px;
-  border-radius: 50%;
-  background: #01A7C2; /* Green background */
-  cursor: pointer; /* Cursor on hover */
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    border-radius: 50%;
+    background: #01A7C2;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
 }
 
 
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /**************************************/
 @media (min-width: 700px) {
-  .wrapper {
-    overflow: hidden;
-  }
-  .wrapper > * {
-    float: left;
-    padding: 2em 2em;
-  }
+    .wrapper {
+        overflow: hidden;
+    }
+
+    .wrapper > * {
+        float: left;
+        padding: 2em 2em;
+    }
 }
 
 @media (min-width: 700px) {
-  .contacts {
-    width: 30%;
-    min-height: 620px;
-  }
+    .contacts {
+        width: 30%;
+        min-height: 620px;
+    }
 }
 
 @media (min-width: 700px) {
-  .form {
-    width: 70%;
-  }
+    .form {
+        width: 70%;
+    }
 }
 
 form p {
-  float: left;
-  width: 49%;
+    float: left;
+    width: 49%;
 }
+
 form p:not(:nth-child(2n)) {
-  margin-right: 2%;
+    margin-right: 2%;
 }
+
 form p:last-child {
-  clear: both;
-  width: 100%;
+    clear: both;
+    width: 100%;
 }
+
 form p:nth-last-child(2) {
-  clear: both;
-  width: 100%;
+    clear: both;
+    width: 100%;
 }
 
 /**************************************/
 body {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .wrapper {
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
+
 .wrapper > * {
-  padding: 1em;
+    padding: 1em;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .contacts {
-  background: #4b5195;
-  color: #fff;
+    background: #01A7C2;
+    color: #fff;
 }
 
 .form {
-  background: #fff;
+    background: #fff;
 }
 
 form label {
-  display: block;
+    display: block;
 }
 
 button,
 input,
 textarea {
-  padding: 1em;
+    padding: 1em;
 }
 
 button {
-  background: lightgrey;
-  width: 100%;
-  border: 0;
+    background: lightgrey;
+    width: 100%;
+    border: 0;
 }
-button:hover, button:focus {
-  background: gold;
-  outline: 0;
+
+button:hover,
+button:focus {
+    background: gold;
+    outline: 0;
 }
 
 .contain {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
 }
+
 @media (min-width: 600px) {
-  .contain {
-    padding: 0;
-  }
+    .contain {
+        padding: 0;
+    }
 }
 
 h3,
 ul {
-  margin: 0;
+    margin: 0;
 }
 
 h3 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 input:focus,
 textarea:focus {
-  outline: 3px solid gold;
+    outline: 3px solid gold;
 }
+
 
 input,
 textarea,
 button {
-  width: 100%;
-  border: 1px solid #000;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+/*slider*/
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.lider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.lider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .lider {
+    background-color: #2196F3;
+}
+
+input:focus + .lider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .lider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.lider.lround {
+    border-radius: 34px;
+}
+
+.lider.lround:before {
+    border-radius: 50%;
 }
